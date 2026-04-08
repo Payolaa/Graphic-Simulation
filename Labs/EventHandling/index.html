@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gapminder</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <!-- d3-tip CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="margin-bottom: 15px;">
+
+            <div class="col-md-2">
+                <button id="play-btn" class="btn btn-primary btn-block"> Play</span>
+                </button>
+            </div>
+
+            <div class="col-md-2">
+                <button id="reset-btn" class="btn btn-warning btn-block"> Reset
+                </button>
+            </div>
+
+            <div class="col-md-3">
+                <select id="continent-select" class="form-control">
+                    <option value="all">All Continents</option>
+                </select>
+            </div>
+
+            <div class="col-md-5">
+                <label>Year: <strong id="year-display">1800</strong></label>
+                <div id="year-slider"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div id="chart-area"></div>
+        </div>
+
+    </div>
+
+<!-- JS libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
