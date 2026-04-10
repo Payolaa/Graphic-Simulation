@@ -1,0 +1,40 @@
+svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+text {
+    font: 10px sans-serif;
+}
+
+form {
+    float:right;
+}
+
+label {
+    padding-right:10px;
+}
+
+input {
+    margin: 0 7px;
+}
+
+form label {
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form {
+    margin-bottom: 15px;
+    text-align: center;
+}
